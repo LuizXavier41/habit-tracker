@@ -1,11 +1,11 @@
-<main>
-    <h1>PÁGINA INICIAL HOME</h1>
-    {{ $name }}
+<x-layout>
+    <main>
 
-    @foreach ($subjects as $s)
-        <li>{{ $s }}</li>
-    @endforeach
+        {{ $name }}
 
-</main>
+        @foreach ($subjects as $s)
+            <li class=" text-amber-500">{{ $s }}</li>
+        @endforeach
 
-
+    </main>
+</x-layout>
