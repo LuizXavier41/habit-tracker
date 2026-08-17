@@ -1,11 +1,12 @@
 <x-layout>
-    <main>
+    <main class="py-10">
 
-        {{ $name }}
 
-        @foreach ($subjects as $s)
-            <li class=" text-amber-500">{{ $s }}</li>
+<div class="flex flex-col">
+    {{ $name }}
+    @foreach ($subjects as $s)
+            <li class=" text-amber-500 p-2" >{{ $s }}</li>
         @endforeach
-
+</div>
     </main>
 </x-layout>
