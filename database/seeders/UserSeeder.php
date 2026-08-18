@@ -13,6 +13,6 @@ class UserSeeder extends Seeder
      */
     public function run(): void
     {
-        User::query()->create(['name'=>'Joao','email'=>'joao@gmail.com','password'=>'123']);
+        User::query()->create(['name'=>'Joao','email'=>'joao@gmail.com','password'=>'1234']);
     }
 }
